@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(187, 185, 202);
+
+}
+.container{
+    margin-top: 140px;
+}
+.time{
+    display: inline-block;
+    /* margin: 20px; */
+    margin-right: 28px;
+    margin-top: 20px;
+    /* -webkit-box-reflect: below 0.2px linear-gradient(transparent,transparent, rgb(0,0,50)); */
+
+}
+.time span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hrs-1{
+    background-color: rgb(1, 174, 243);
+    width: 90px;
+}
+.hrs-2{
+    background-color: rgb(60, 179, 44);
+    width: 90px;
+}
+
+.hrs-3{
+    background-color: rgb(255, 2, 2);
+    width: 90px;
+}
+
+.hrs-4{
+    background-color: rgb(230, 215, 17);
+    width: 100px;
+}
+
+
+
+
+.hours{
+    font-size: 60px;
+    background-color: rgb(19, 218, 253);
+}
+.min{
+    font-size: 60px;
+    background-color: rgb(126, 255, 41);
+}
+.sec{
+    font-size: 60px;
+    background-color: rgb(255, 112, 112);
+}
+#prd-2{
+    font-size: 60px;
+    background-color: rgb(253, 240, 50);
+    text-align: center;
+
+}
+
+h1{
+    font-family: cursive;
+    font-size: 35px;
+    /* font-style: italic; */
+    text-align: center;
+    font-weight: bolder
+    
+}
+
+
+
+
+
+@media  screen and (max-width:700px) {
+    .time {
+        padding-left: 59px;
+    padding-top: 44px;
+    /* display: inline-block; */
+    /* margin: 20px; */
+    margin-right: 28px;
+    margin-top: 20px;
+   
+    }
+  
+}
+@media  screen and (min-width:750px){
+    .time{
+        display: inline-block;
+        /* margin: 20px; */
+        margin-right: 28px;
+        margin-top: 20px;
+ -webkit-box-reflect: below 0.2px linear-gradient(transparent,transparent, rgb(0,0,50));
+    }
+}
+@media  screen and (max-width:357px){
+    .time{
+        padding-left: 88px;
+    }
+    .container {
+        margin-top: 8px;
+    }
+}
